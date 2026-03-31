@@ -4,8 +4,87 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>個人求職自傳履歷網頁</title>
+	<style type="text/css">
+		* { font-family:"標楷體";  margin-left:auto; margin-right:auto;}
+	</style>	
+
+	<script>
+		function change1() {
+  			document.getElementById("001").src = "my2.jpg"; }
+
+		function change2() {
+  			document.getElementById("001").src = "my1.jpg";}
+  			
+	</script>
+
 </head>
+
 <body>
-	
+	<table width="50%">
+		<tr>
+			<td>
+				<img src="my1.jpg" width="30%; aspect-ratio: 1 / 1" id="001" onmouseover="change1()" onmouseout="change2()"></img>
+			</td>
+		</tr>
+	</table>
+
+	相關資料
+	姓名:徐梓恩<br>
+	科系:<a href="https://mdba.pu.edu.tw/">行銷數位經營系</a><br>
+	E-Mail:<a href="mailto:s1092075@gm.pu.edu.tw">s1092075@gm.pu.edu.tw</a><br>
+<br>
+	畢業高中<br>
+	<a href="https://www3.mingdao.edu.tw/">明道高中</a>商管群畢業<br>
+<br>
+	高中考取檢定證照<br>
+		電腦軟體應用—丙級
+		電腦軟體應用—乙級
+		會計事務-人工記帳
+		會計事務-資訊
+		門市服務
+		POWERPOINT
+		EXCEL
+		PVQC<br>
+<br>
+Holland檢測結果<br>
+	S社會 X C事務<br>
+	S社會型: #置中<br>
+	容易相處，他們關心自己和別人的感受，喜歡傾聽和了解別人，願意付出時間和精力去解決別人的衝突，喜歡教導別人。<br>
+	C事務型: #置中<br>
+	會替他人設想，在乎別人的感受，和朋友關係良好但較少主動與人攀談；講求規矩精確，條理分明，行事仔細，會替自己安排一個清楚的工作順序。<br>
+	<img src="Holland.jpg"><br>
+	將來適合工作<br>
+	<img src="work.jpg"><br>
+	名人代表<br>
+	<img src="lala.jpg"><br>
+<br>
+	職業適性測驗結果<br>
+	<br>
+	<table width="50%" border="0">
+	<tr>
+		適合職業—產品管理師<br>
+		<td>
+			<img src="manage1.jpg">
+		</td>
+
+		<td>
+			<img src="manage2.jpg">
+		</td>
+</table>
+<br>
+<table width="50%" border="0">
+	適合職業—行銷企劃<br>
+		<td>
+			<img src="planning1.jpg">
+		</td>
+
+		<td>
+			<img src="planning2.jpg">
+		</td>
+</table>
+
+
+	</tr>
+<?php echo date("Y-m-d") ?>
 </body>
 </html>
